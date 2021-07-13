@@ -15,7 +15,7 @@
 
 - 메서드 (Method) : 객체의 기능(역할)을 구현, 멤버 함수(Member function) 라고도 함 
 
-```
+```java
 public class Student {
     int studentNumber;
     String studentName;
@@ -33,7 +33,7 @@ public class Student {
 
 - 동적 메모리영역(heap 영역) 에 할당됨 
 
-```
+```java
 Student studentLee = new Student()
 ```
 
@@ -50,7 +50,7 @@ Student studentLee = new Student()
 - 생성자 오버로딩을 통해 여러 생성자를 정의할 수 있음 
 -- 오버로딩(Overloading) : 이름은 같고 매개변수만 다른 메서드를 작성하여 각각 사용할 수 있는 기술 
 
-```
+```java
 public class Student {
     public int studentNumber;
     
