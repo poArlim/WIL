@@ -60,4 +60,3 @@ public class Student {
 }
 ```
 
-- this : 지역변수가 아닌 멤버변수를 나타냄
