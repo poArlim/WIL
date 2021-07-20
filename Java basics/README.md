@@ -1,5 +1,3 @@
-# Java Basics
-
 - [자바 기본 복습](https://github.com/poArlim/WIL/blob/master/Java%20basics/Basics%20of%20Java.md)
 - [클래스(Class), 인스턴스(Instance), 생성자(Constructor)](https://github.com/poArlim/WIL/blob/master/Java%20basics/Basics%20of%20OOP.md)
 - [접근 제어 지시자(Access modifier), 캡슐화(Encapsulation), this, static, 싱글톤 패턴(Singleton pattern)](https://github.com/poArlim/WIL/blob/master/Java%20basics/Basics%20of%20OOP2.md)
