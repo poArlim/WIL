@@ -18,7 +18,7 @@
 객체를 생성하는 것과 관련된 패턴으로, 객체의 생성과 변경이 전체 시스템에 미치는 영향을 최소화하고 코드의 유연성을 높여준다. 
 
 - Factory Method
-- Singleton
+- [Singleton](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/singleton.md)
 - Prototype
 - Builder
 - Abstract Factory
@@ -29,13 +29,13 @@
 
 프로그램 내의 자료구조나 인터페이스 구조 등 프로그램 구조를 설계하는 데 활용 될 수 있는 패턴으로, 많은 클래스들이 서로 의존성을 가지는 큰 규모의 시스템에서 복잡한 구조를 개발, 유지보수 하기 쉽게 해준다. 
 
-- Adapter
+- [Adapter](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/adapter.md)
 - Composite
 - Bridge
-- Decorator
-- Facade
+- [Decorator](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/decorator.md)
+- [Facade](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/facade.md)
 - Flyweight
-- Proxy
+- [Proxy](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/proxy.md)
 
 
 ## 행위패턴 
@@ -45,8 +45,8 @@
 - Template Method
 - Interpreter
 - Iterator
-- Observer
-- Strategy
+- [Observer](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/observer.md)
+- [Strategy](https://github.com/poArlim/WIL/blob/master/Java/design-pattern/strategy.md)
 - Visitor
 - Chain of responsibility
 - Command
