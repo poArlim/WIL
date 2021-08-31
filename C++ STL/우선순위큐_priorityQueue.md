@@ -24,3 +24,24 @@ priority_queue<int, vector<int>, greater<int>>  // 오름차순으로 관리되�
 |top|첫 데이터 반환|
 |empty|우선순위 큐가 비어있으면 true, 아니면 false 반환|
 |size|우선순위 큐의 데이터 개수를 반환|
+
+
+### compare 함수 작성
+compare 함수는 priority queue 의 정렬 방식을 지정해주는 함수이다.
+- pair 의 second 를 기준으로 오름차순 정렬
+```c++
+struct compare{
+    bool operator()(pair<int, int> a, pair<int, int> b){
+        return a.second > b.second;
+    }
+};
+
+int main(){
+    priority_queue<pair<int, int>, vector<pair<int, int>>, compare> pq;
+    pq.push({1, 10});
+    pq.push({2, 3});
+    pq.push({3, 1});
+    cout<<pq.top().first; // 출력 : 3
+    cout<<pq.top().second; // 출력 : 1
+}
+```
