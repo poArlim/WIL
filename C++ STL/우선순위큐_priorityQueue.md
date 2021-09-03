@@ -28,7 +28,8 @@ priority_queue<int, vector<int>, greater<int>>  // 오름차순으로 관리되�
 
 ### compare 함수 작성
 compare 함수는 priority queue 의 정렬 방식을 지정해주는 함수이다.
-- pair 의 second 를 기준으로 오름차순 정렬
+- **주의 : sort 등의 compare 함수와 부등호의 방향이 반대로, return true 일 때 swap 이 일어난다.**
+- pair 의 second 를 기준으로 **오름차순** 정렬
 ```c++
 struct compare{
     bool operator()(pair<int, int> a, pair<int, int> b){
