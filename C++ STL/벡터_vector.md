@@ -81,6 +81,10 @@ int main(){
     for(vector<int>::iterator myIter = myVector.begin(); myIter != myVector.end(); myIter++){
         cout<<*myIter<<endl;
     }
+    
+    for(int num : myVector){    // 간단한 방법
+        cout<<num<<endl;
+    }
 
     myVector.assign(yourVector.begin(),  yourVector.end()); // 지정한 위치의 데이터로 벡터를 채움
 
